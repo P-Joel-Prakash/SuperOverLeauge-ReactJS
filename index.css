@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.main-container {
+  background-color: #0f172a;
+  height: 100vh;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: #f8fafc;
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image {
+  height: 250px;
+  width: 225px;
+}
